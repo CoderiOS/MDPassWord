@@ -37,7 +37,7 @@
 - (void)getTheKeyboardNum:(UIButton *)btn {
     if (btn.tag <= 9 || btn.tag == 0) {
         if (self.text.length < 6) {
-            [self insertText:[NSString stringWithFormat:@"%ld",btn.tag]];
+            [self insertText:[NSString stringWithFormat:@"%ld",(long)btn.tag]];
         }
     }else if (btn.tag == 12){
         [self deleteBackward];
