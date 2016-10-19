@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "A similar system PassWord"
   s.homepage     = "https://github.com/CoderiOS/MDPassWord"
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "wlq" => "ihousehold@163.com" }
   s.source       = { :git => "https://github.com/CoderiOS/MDPassWord.git", :tag => s.version }
   s.platform     = :ios, "7.0"
